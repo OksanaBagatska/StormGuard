@@ -11750,7 +11750,7 @@ header {
       display: -ms-flexbox;
       display: flex; }
       .find-franchise .container-block form input {
-        max-width: 259px;
+        width: 259px;
         height: 54px;
         border: 1px solid #b7b7b7;
         background-color: #ffffff;
@@ -12098,7 +12098,8 @@ h3.section__title {
   font-family: Helvetica;
   font-size: 16px;
   font-weight: 400;
-  line-height: 23px; }
+  line-height: 23px;
+  margin-bottom: 23px; }
   .page main p a {
     color: #db302c;
     text-decoration: underline; }
@@ -12113,6 +12114,18 @@ h3.section__title {
   background: #db302c;
   color: #fff;
   border: 1px solid #fff; }
+
+.archive h1 {
+  color: #dc3430;
+  font-family: "Eurostile LT Std - Demi",sans-serif;
+  font-size: 34px;
+  font-weight: 400; }
+
+.archive h3 {
+  color: #dc3430;
+  font-family: "Eurostile LT Std - Demi",sans-serif;
+  font-size: 25px;
+  font-weight: 400; }
 
 .error404 .content-404 .gradient {
   background-image: linear-gradient(-197deg, #cc0e0e 0, #d62323 30%, #cc5516 83%, #c53a38 100%);
@@ -12179,7 +12192,7 @@ h3.section__title {
   .footer-top-row .contact-col-12 {
     margin-bottom: 24px; }
   .footer-top-row .contact-us {
-    padding-top: 40px !important; }
+    padding-top: 37px !important; }
   .footer-top-row .wpcf7 {
     max-width: 587px;
     margin: 0 !important; }
@@ -12210,7 +12223,7 @@ h3.section__title {
   .footer-top-row .block__gallery {
     padding: 36px 0 0 24px !important; }
     .footer-top-row .block__gallery p {
-      margin-bottom: 24px; }
+      margin-bottom: 17px; }
   .footer-top-row .gallery__item {
     margin-bottom: 24px;
     padding-right: 0; }
@@ -12234,7 +12247,8 @@ h3.section__title {
     margin-top: 2px; }
 
 .footer-bottom-row {
-  background: #000; }
+  background: #000;
+  padding-bottom: 10px; }
   .footer-bottom-row div {
     float: left;
     color: #f7f8f8;

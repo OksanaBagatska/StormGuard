@@ -58,7 +58,7 @@ $container = get_theme_mod('understrap_container_type');
             </div><!-- row end -->
 
         </div><!-- container end -->
-        <div class="row m-0 p-0 footer-bottom-row">
+        <div class="row m-0 footer-bottom-row">
             <div class="<?php echo esc_attr($container); ?> container-block">
                 <div><?php the_field('footer_copyright', 'options') ?></div>
                 <?php wp_nav_menu(
