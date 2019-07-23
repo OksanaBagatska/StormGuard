@@ -4,6 +4,4 @@ AddType application/octet-stream .wpress
 <IfModule mod_dir.c>
 DirectoryIndex index.php
 </IfModule>
-<IfModule mod_autoindex.c>
 Options -Indexes
-</IfModule>
